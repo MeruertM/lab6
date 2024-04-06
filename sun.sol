@@ -4,8 +4,8 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";  
   
 contract MyToken is IERC20 {  
-    string private _name = "atomi";  
-    string private _symbol = "ATM";  
+    string private _name = "SolarSystemToken";  
+    string private _symbol = "SST";  
     uint8 private _decimals = 8;  
     uint256 private _totalSupply;  
   
